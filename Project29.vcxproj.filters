@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{09dee4da-58be-40cd-a574-2e31cae141ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lang">
+      <UniqueIdentifier>{5ab24192-cbbd-497b-96da-a639e4eff9ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ukr_lang.h">
+      <Filter>lang</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
